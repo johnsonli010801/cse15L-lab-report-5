@@ -49,8 +49,11 @@ Here is the actual output of both my implementation and professor's implementati
 We can see the output on my program is same as the expected output. Then output of Professor's implementation did not show the same as what we expect.
 >
 **Bug Description,Part of code needs to fix on Professor's program**
+>
 This bug is actually caused by an image link. As long as the program did not handle the case of image link 
+>
 ![image](lab5.7.PNG)
+>
 Around line 57, the program should handle the sign `!` before the open bracket or somewhere else inside the brackets. Especially, a image link inside the brackets. If the program handles the case of image link, it will return the actual output which is the empty list instead of the link of image path.
 
 ## Second Test
