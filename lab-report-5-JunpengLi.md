@@ -76,10 +76,13 @@ Most likely, these are all about the same bug which is the image link. Honestly,
 Similarly, The expected output for each of the md files should be empty list because they are all image links.
 >
 Actual Output:
+>
 ![image](lab5.1.png).
 >
 **Code to fix(similar to case 1 because our group only got this bug by running `diff`)**
+>
 ![image](lab5.7.PNG)
+>
 Professor's implementation should be fixed to handle the image link and return an empty list whenever the program calls getLink method on an image link.
 >
 
